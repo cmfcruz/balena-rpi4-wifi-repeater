@@ -1,5 +1,7 @@
 # WiFi Repeater
 
+**Important:** This is a modified version of the wifi-repeater project that includes the [rtl8812au](https://github.com/aircrack-ng/rtl8812au) drivers.  This is done to include the needed drivers for the [TP-Link Archer T2U Nano AC600 Wireless USB Adapter](https://www.tp-link.com/us/home-networking/usb-adapter/archer-t2u-nano/) to work with the Raspberry Pi4 on balenaOS 2.88.5+rev1 & lower versions.  The driver build stage automatically builds for the latest 3 balenaOS versions.  Please modify the code to fit your use case.
+
 WiFi Repeater project is a utility to dynamically extend an existing wired or wireless network. To achieve this the utility uses the onboard WiFi chip to create an access point you can connect your devices to.
 To enable internet access you can either plug an ethernet cable (AP mode) or use a secondary WiFi interface (by using a USB WiFi dongle) to connect to an internet enabled network.
 
